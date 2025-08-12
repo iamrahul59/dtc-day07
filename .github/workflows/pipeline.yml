@@ -22,7 +22,7 @@ jobs:
         echo "REACT_APP_API_URL=${{ secrets.API_URL}} " > application/client/.env
 
     - name: Set up Docker Buildx
-      user: docker/setup-buildx-actions@v3
+      user: docker/setup-buildx-action@v3
 
     - name: Login to DockerHub
       uses: docker/Login-action@v3
