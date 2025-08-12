@@ -25,7 +25,7 @@ jobs:
       user: docker/setup-buildx-action@v3
 
     - name: Login to DockerHub
-      uses: docker/Login-action@v3
+      user: docker/Login-action@v3
       with:
         registry: docker.io
         username: ${{secrets.DOCKER_USER }}
