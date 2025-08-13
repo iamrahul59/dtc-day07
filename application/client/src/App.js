@@ -52,6 +52,7 @@ function App() {
   return (
     <div className="App">
       <div className="information">
+          <label>Rahul's Own Frontend</label>
           <label>Name:</label>
         <input
           type="text"
